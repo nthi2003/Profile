@@ -33,6 +33,13 @@
     .content-left{
         margin-top: 160px;
     }
+    .Profile_inner {
+        align-items: flex-start;
+        border-bottom: 1px solid #d0d7de;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: 12px;
+    }
     }
     
 

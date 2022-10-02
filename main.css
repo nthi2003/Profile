@@ -122,7 +122,6 @@ img{
 .Profile_inner {
     align-items: flex-start;
     border-bottom: 1px solid #d0d7de;
-    display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 12px;
@@ -138,8 +137,15 @@ img{
 .img-project{
     width: 70%;
     height: 60%;
+    margin-top: 20px;
 }
 .font-product{
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
+    display: contents;
+    display: flex;
+}
+.inner-twoclass{
+   padding: 20px;
+   font-size: 20px;
 }

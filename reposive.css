@@ -62,7 +62,7 @@
         display: flex;
         text-decoration: none;
         list-style: none;
-    
+        margin-left: 70px;
     }
     .nav-mobile-true
     {

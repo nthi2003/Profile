@@ -7,6 +7,7 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat',Arial,Helvetica,sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 section {
     display: block;
@@ -86,7 +87,31 @@ img{
     margin-top: 90px;
     padding: 0 24px;
 }
-.box-wapper{
+#box-wapper{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+    padding: 18px 14px;
+    word-break: break-word;
+}
+#box-wapper2{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+    padding: 18px 14px;
+    word-break: break-word;
+}
+#box-wapper3{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+    padding: 18px 14px;
+    word-break: break-word;
+}
+#box-wapper4{
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
@@ -149,3 +174,10 @@ img{
    padding: 20px;
    font-size: 20px;
 }
+.tab-bar
+{
+    display: none;
+}
+.nav-mobile-list{
+        display: none;
+    }

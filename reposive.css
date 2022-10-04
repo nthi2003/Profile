@@ -115,6 +115,9 @@
 }
 @media (min-width:1113px)
 {
+    .nav-mobile_thank{
+        display: none;
+    }
     .index-module-row{
     margin-left: -12px;
     margin-right: -12px;

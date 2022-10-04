@@ -1,5 +1,5 @@
 /*mobile*/
-@media (min-width: 0px) and (max-width: 739px)
+@media (min-width: 0px) and (max-width: 639px)
 {
   
    .Profile_user{
@@ -15,7 +15,7 @@
     width: 128px;
    }
    .Profile_name{
-    font-size: 2.4rem; 
+    font-size: 2.2rem; 
     margin-bottom: 0;
     margin-left: 0;
     margin-top: 6px;
@@ -62,7 +62,7 @@
         display: flex;
         text-decoration: none;
         list-style: none;
-        margin-left: 70px;
+        margin-left: 0px;
     }
     .nav-mobile-true
     {
@@ -71,7 +71,7 @@
     }
     
 /*tablet*/
-@media (min-width:739px) and (max-width:1112px)
+@media (min-width:740px) and (max-width:1112px)
 {
     .tab-bar
     {
@@ -79,6 +79,7 @@
     }
     .nav-mobile-list{
         display: none;
+        margin-left:70px;
     }
 }
 @media (min-width:1113px)

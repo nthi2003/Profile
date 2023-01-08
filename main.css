@@ -87,11 +87,17 @@ img{
     margin-bottom: 16px;
     margin-left: 16px;
     text-align: center;
+
 }
 
 .Profile_container{
     margin-top: 90px;
-    padding: 0 24px;
+    padding : 0 24px;
+}
+
+.cv a{
+    text-decoration: none;
+    color: black;
 }
 #box-wapper{
     background-color: #fff;
@@ -169,6 +175,7 @@ img{
     width: 70%;
     height: 60%;
     margin-top: 20px;
+    margin: 50px;
 }
 .font-product{
     font-size: 20px;
@@ -222,7 +229,7 @@ img{
 }
 .img-anime{
     height: 100%;
-    border-radius: 25px;
+
     width: 100%;
     
 }
@@ -244,4 +251,47 @@ font-size: 20px;
 }
 .nav-link{
     text-decoration: none;
+}
+.icon-link{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.link{
+    border: 1px solid #000;
+    background-color: #f25f4c;
+    width: 170px;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    
+}
+.link-github{
+    border: 1px solid #000;
+    width: 170px;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 100px ;
+    display: flex;
+    
+}
+.link span{
+    margin-left: 20px;
+    color: #fff;
+}
+.link-github span{
+    margin-left: 20px;
+}
+
+#loading{
+    background: url(./img/11c4ba56f295011bbc32c61c8ed0e66f.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: flex;
+    z-index: 100;
+    background-size: 50% ;
 }

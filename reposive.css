@@ -3,9 +3,11 @@
 @media (min-width: 0px) and (max-width: 339px)
 {
     .link {
-     display: none;
-    }
-
+        display: none;
+       }
+   .link-github{
+    display: none;
+   }
     .Profile_user{
         align-items: center;
         bottom: -150px;
@@ -117,6 +119,9 @@
     .link {
         display: none;
        }
+   .link-github{
+    display: none;
+   }
    
     .cv{
 
@@ -180,7 +185,7 @@
             padding-bottom: 12px;
         }
         .img-project{
-            width: 100%;
+            width: 70%;
             height: 60%;
             margin-top: 20px;
         }
@@ -348,6 +353,12 @@
 /*tablet*/
 @media (min-width:741px) and (max-width:1112px)
 {
+    .link {
+        display: none;
+       }
+   .link-github{
+    display: none;
+   }
     .tab-bar
     {
         display: none;
